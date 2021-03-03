@@ -23,4 +23,5 @@ shift
 N_DAYS_BEFORE=$(date -v -"$N"d +%Y-%m-%dT%H:%M:%S)
 
 # Must be in a single line.
-GIT_AUTHOR_DATE=$N_DAYS_BEFORE GIT_COMMITTER_DATE=$N_DAYS_BEFORE git commit $@
+# GIT_AUTHOR_DATE=$N_DAYS_BEFORE GIT_COMMITTER_DATE=$N_DAYS_BEFORE git commit $@
+echo $@
