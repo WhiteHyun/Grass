@@ -2,8 +2,11 @@
 
 ## 설명
 
+![grass](https://user-images.githubusercontent.com/57972338/115762659-aae2f580-a3de-11eb-9246-84e909c53f96.gif)
+
 - 자동으로 잔디르 채워주는 쉘 스크립트 파일
 - 정해준 날짜만큼 잔디를 채워준다.
+
 
 
 ## 사용법
